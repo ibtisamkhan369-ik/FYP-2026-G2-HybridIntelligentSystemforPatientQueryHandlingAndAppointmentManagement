@@ -16,7 +16,7 @@ Bachelor of Science in Computer Science (BSCS)
 2026
 
 **Supervisor:**  
-Dr. Mujeeb
+Dr. Mujeeb ur rehman shaikh
 
 **Co-Supervisor:**  
 Syeda Madiha Zaidi
