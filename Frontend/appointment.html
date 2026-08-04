@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+   <h1>Hybrid Intelligent Hospital System</h1>
+
+    <h2>Book Appointment</h2>
+
+    <form id="appointmentForm">
+
+        <input
+            type="text"
+            id="patientName"
+            readonly
+        >
+
+        <input
+            type="text"
+            id="department"
+            readonly
+        >
+
+        <input
+            type="date"
+            id="date"
+            required
+        >
+
+        <input
+            type="time"
+            id="time"
+            required
+        >
+
+        <button type="submit">
+            Confirm Appointment
+        </button>
+
+    </form>
+
+    <p id="message"></p>
+
+    <br>
+
+    <button onclick="window.location.href='dashboard.html'">
+        Back to Dashboard
+    </button>
+
+</div>
+
+<script src="js/appointment.js"></script>
+
+</body>
+
+</html>
+<div class="footer">
+
+© 2026 Hybrid Intelligent Hospital System
+
+</div>
